@@ -1,16 +1,23 @@
 class script(object):
     START_TXT = """<b>ʜᴇʏ {}, <i>{}</i>
     
-ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ... ɪᴛ'ꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ... ♻️</b>"""
+මම සබ් හොයන බොටෙක්🤖. මං ලග ගොඩක් සිංහල සබ් තියෙනවා😏. මගේ වැඩ බලන්න මාව ඔයාගේ group එකට add කරලා මට admin දීලා බලන්න⚡. ආස හිතෙයි💗.
 
-    MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
-★ Database: <a href=https://www.mongodb.com>MongoDB</a>
-★ Language: <a href=https://www.python.org>Python</a>
-★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
+👨🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/KING_WMP>Chethmina Kavishan</a></b>"""
 
-    MY_OWNER_TXT = """★ Name: HA Bots
-★ Username: @HA_Bots
-★ Country: Sri Lanka 🇱🇰"""
+    MY_ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ: <a href=https://t.me/SinhalaSubCK_Bot>Sinhala Sub Bot</a>
+👨🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/KING_WMP>Chethmina Kavishan</a>
+📡 ꜱᴇʀᴠᴇʀ: <a href=https://www.heroku.com>Heroku</a>
+🗄 ᴅᴀᴛᴀʙᴀꜱᴇ: <a href=https://www.mongodb.com>MongoDB</a>
+📝 ʟᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Python</a>
+📚 ʟɪʙʀᴀʀʏ: <a href=https://pyrogram.org>Pyrogram</a>
+📢 ᴜᴘᴅᴀᴛᴇꜱ: <a href=https://t.me/CK4U2>CK4U2</a></b>"""
+
+    MY_OWNER_TXT = """<b>👨🏻‍💻 Name: Chethmina Kavishan
+🔎 Username: @KING_WMP
+🔮 About: @About_KingWMP
+🔑 ID: <code>5042338756</code>
+🌍 Country: Sri Lanka🇱🇰</b>"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
@@ -46,9 +53,7 @@ Total - <code>{}</code>"""
 
 I can't find the <b>{}</b> in my database! 🥲
 
-👉 Google Search and check your spelling is correct.
-👉 Please read the Instructions to get better results.
-👉 Or not been released yet."""
+මං ලග සබ් එක නෑ වගේ. #request කියලා ඔයාල ඉල්ලපු සබ් එකේ නම් දාන්න."""
     
     EARN_TXT = """<b>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ꜰʀᴏᴍ ᴛʜɪs ʙᴏᴛ
 
@@ -80,19 +85,21 @@ I can't find the <b>{}</b> in my database! 🥲
 
     IMDB_TEMPLATE = """✅ I Found: <code>{query}</code>
 
-🏷 Title: <a href={url}>{title}</a>
+<b>🏷 Title: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating} / 10</a>
-☀️ Languages: {languages}
-📀 RunTime: {runtime} Minutes
+🔊 Languages: {languages}
+⏰ RunTime: {runtime} Minutes</b>
 
-🗣 Requested by: {message.from_user.mention}
-©️ Powered by: <b>{message.chat.title}</b>"""
+ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ: {message.from_user.mention}
 
-    FILE_CAPTION = """<i>{file_name}</i>
+<b>⚡ᴘᴏᴡᴇʀᴇᴅ ʙʏ <i>@CK4U2</i></b>"""
 
-🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
+    FILE_CAPTION = """<b>🎞ɴᴀᴍᴇ:</b> <code>{file_name}</code>
+<b>📥ꜱɪᴢᴇ: {file_size}</b>
+
+<b>⚡ᴘᴏᴡᴇʀᴇᴅ ʙʏ <i>@CK4U2</i></b>"""
 
     WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
 
@@ -101,7 +108,6 @@ I can't find the <b>{}</b> in my database! 🥲
     ADMIN_COMMAND_TXT = """<b>Here is bot admin commands 👇
 
 /index_channels - to check how many index channel id added
-/stats - to get bot status
 /delete - to delete files using query
 /delete_all - to delete all indexed file
 /broadcast - to send message to all bot users
@@ -122,23 +128,18 @@ I can't find the <b>{}</b> in my database! 🥲
     USER_COMMAND_TXT = """<b>Here is bot user commands 👇
 
 /start - to check bot alive or not
+/stats - to get bot status
 /settings - to change group settings as your wish
-/set_template - to set custom imdb template
-/set_caption - to set custom bot files caption
 /set_shortlink - group admin can set custom shortlink
 /get_custom_settings - to get your group settings details
 /set_welcome - to set custom new joined users welcome message for group
 /set_tutorial - to set custom tutorial link in result page button
-/id - to check group or channel id
-/openai - Find solution to any question with ChatGPT</b>"""
+/id - to check group or channel id</b>"""
 
-    SOURCE_TXT = """<b>ʙᴏᴛ ɢɪᴛʜᴜʙ ʀᴇᴘᴏsɪᴛᴏʀʏ -
+    SOURCE_TXT = """<b>🔮ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ- <a href=https://t.me/+VhJIV2F3RxljNTNl>Click Here</a>
 
-- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
-
-- ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/HA-Bots/Auto-Filter-Bot>ʜᴇʀᴇ</a>
-
-- ᴅᴇᴠʟᴏᴘᴇʀ - @HA_Bots"""
+👨🏻‍💻ᴅᴇᴠʟᴏᴘᴇʀ - <a href=https://telegram.me/KING_WMP>Chethmina Kavishan</a>
+⚡ᴘᴏᴡᴇʀᴇᴅ ʙʏ - <a href=https://telegram.me/CK4U2>CK4U2</a></b>"""
 
     SPAM_TXT = """{} Don't Spam, Wait For {}
 
