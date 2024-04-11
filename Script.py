@@ -83,16 +83,16 @@ I can't find the <b>{}</b> in my database! 🥲
 
 📝 ɴᴏᴛᴇ:- ʏᴏᴜ sʜᴏᴜʟᴅ ɴᴏᴛ ʙᴇ ᴀɴ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ ɪɴ ɢʀᴏᴜᴘ. sᴇɴᴅ ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜᴏᴜᴛ ʙᴇɪɴɢ ᴀɴ ᴀɴᴏɴʏᴍᴜs ᴀᴅᴍɪɴ.</b>"""
 
-    IMDB_TEMPLATE = """✅ I Found: <code>{query}</code>
+    IMDB_TEMPLATE = """✅ 𝕀 𝔽𝕠𝕦𝕟𝕕: <code>{query}</code>
 
-<b>🏷 Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating} / 10</a>
-🔊 Languages: {languages}
-⏰ RunTime: {runtime} Minutes</b>
+🏷 𝕋𝕚𝕥𝕝𝕖: <b><a href={url}>{title}</a></b>
+🎭 𝔾𝕖𝕟𝕣𝕖𝕤: <b>{genres}</b>
+📆 𝕐𝕖𝕒𝕣: <b><a href={url}/releaseinfo>{year}</a></b>
+🌟 ℝ𝕒𝕥𝕚𝕟𝕘: <b><a href={url}/ratings>{rating} / 10</a></b>
+🔊 𝕃𝕒𝕟𝕘𝕦𝕒𝕘𝕖𝕤: <b>{languages}</b>
+⏰ ℝ𝕦𝕟𝕋𝕚𝕞𝕖: <b>{runtime} Minutes</b>
 
-ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ: {message.from_user.mention}
+🙋🏻‍♂ℝ𝕖𝕢𝕦𝕖𝕤𝕥𝕖𝕕 𝔹𝕐: {message.from_user.mention}
 
 <b>⚡ᴘᴏᴡᴇʀᴇᴅ ʙʏ <i>@CK4U2</i></b>"""
 
